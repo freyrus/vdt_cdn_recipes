@@ -4,7 +4,7 @@ server {
     access_log /var/log/nginx/cdnrecipes.com-access.log;
     error_log  /var/log/nginx/cdnrecipes.com-error.log error;
 
-    root  /var/apps/vdt/xci/public/uploads;
+    root  /var/apps/vdt/cdn;
     index index.php index.html index.htm;
 
     gzip on;
